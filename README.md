@@ -9,4 +9,4 @@ la capacidad de reutilizar estos bloques evita errores de escritura y reduce el 
 
 Gracias a la restricción unique, VS Code me da un eror así: 
 Identity constraint error: 'UnicoID' has found a duplicate key
-Esto sucede porque el validador ahora no solo chequea que el formato sea correcto, sino que ahora rastrea todo el xsd buscando esas restricciones..
+Esto sucede porque el validador ahora no solo mira que el formato sea correcto, sino que ahora rastrea todo el xsd buscando esas restricciones.
